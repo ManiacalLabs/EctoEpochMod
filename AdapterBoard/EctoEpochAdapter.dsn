@@ -1,0 +1,373 @@
+(pcb "S:\Data\Adam\DropBox\Josh Ward\AdapterBoard\EctoEpochAdapter.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-05-31 BZR 4019)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  15240 -36830  15240 -34290  15355.8 -32966.8  15699.5 -31683.8
+            16260.9 -30480  17022.7 -29392  17962 -28452.7  19050 -27690.9
+            20253.8 -27129.5  21536.8 -26785.8  22860 -26670  106680 -26670
+            108003 -26785.8  109286 -27129.5  110490 -27690.9  111578 -28452.7
+            112517 -29392  113279 -30480  113840 -31683.8  114184 -32966.8
+            114300 -34290  114300 -36830  114184 -38153.2  113840 -39436.2
+            113279 -40640  112517 -41728  111578 -42667.3  110490 -43429.1
+            109286 -43990.5  108003 -44334.2  106680 -44450  22860 -44450
+            21536.8 -44334.2  20253.8 -43990.5  19050 -43429.1  17962 -42667.3
+            17022.7 -41728  16260.9 -40640  15699.5 -39436.2  15355.8 -38153.2
+            15240 -36830)
+    )
+    (via "Via[0-1]_889:635_um" "Via[0-1]_889:0_um")
+    (rule
+      (width 254)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component pin_strip_16
+      (place J4 85090 -41783 front 0 (PN HEADER_16))
+      (place J2 85090 -29210 front 0 (PN HEADER_16))
+      (place J1 44450 -29210 front 0 (PN HEADER_16))
+      (place J3 44450 -41783 front 0 (PN HEADER_16))
+    )
+    (component "LED-3MM"
+      (place D25 73152 -38100 front 180 (PN LED))
+      (place D18 34036 -38100 front 180 (PN LED))
+      (place D19 39624 -38100 front 180 (PN LED))
+      (place D20 45212 -38100 front 180 (PN LED))
+      (place D21 50800 -38100 front 180 (PN LED))
+      (place D22 56388 -38100 front 180 (PN LED))
+      (place D23 61976 -38100 front 180 (PN LED))
+      (place D24 67564 -38100 front 180 (PN LED))
+      (place D16 22860 -38100 front 180 (PN LED))
+      (place D26 78740 -38100 front 180 (PN LED))
+      (place D27 84328 -38100 front 180 (PN LED))
+      (place D28 89916 -38100 front 180 (PN LED))
+      (place D29 95504 -38100 front 180 (PN LED))
+      (place D30 101092 -38100 front 180 (PN LED))
+      (place D31 106680 -38100 front 180 (PN LED))
+      (place D9 73152 -33020 front 180 (PN LED))
+      (place D1 28448 -33020 front 180 (PN LED))
+      (place D2 34036 -33020 front 180 (PN LED))
+      (place D3 39624 -33020 front 180 (PN LED))
+      (place D4 45212 -33020 front 180 (PN LED))
+      (place D5 50800 -33020 front 180 (PN LED))
+      (place D6 56388 -33020 front 180 (PN LED))
+      (place D7 61976 -33020 front 180 (PN LED))
+      (place D8 67564 -33020 front 180 (PN LED))
+      (place D17 28448 -38100 front 180 (PN LED))
+      (place D10 78740 -33020 front 180 (PN LED))
+      (place D11 84328 -33020 front 180 (PN LED))
+      (place D12 89916 -33020 front 180 (PN LED))
+      (place D13 95504 -33020 front 180 (PN LED))
+      (place D14 101092 -33020 front 180 (PN LED))
+      (place D15 106680 -33020 front 180 (PN LED))
+      (place D0 22860 -33020 front 180 (PN LED))
+    )
+    (component 1pin
+      (place 1PIN2 111760 -35560 front 0 (PN PR))
+      (place 1PIN1 17780 -35560 front 0 (PN PL))
+    )
+  )
+  (library
+    (image pin_strip_16
+      (outline (path signal 304.8  20320 -1270  -20320 -1270))
+      (outline (path signal 304.8  -20320 1270  20320 1270))
+      (outline (path signal 304.8  20320 1270  20320 -1270))
+      (outline (path signal 304.8  -17780 1270  -17780 -1270))
+      (outline (path signal 304.8  -20320 -1270  -20320 1270))
+      (pin Rect[A]Pad_1524x2199.64_um 1 -19050 0)
+      (pin Oval[A]Pad_1524x2199.64_um 2 -16510 0)
+      (pin Oval[A]Pad_1524x2199.64_um 3 -13970 0)
+      (pin Oval[A]Pad_1524x2199.64_um 4 -11430 0)
+      (pin Oval[A]Pad_1524x2199.64_um 5 -8890 0)
+      (pin Oval[A]Pad_1524x2199.64_um 6 -6350 0)
+      (pin Oval[A]Pad_1524x2199.64_um 7 -3810 0)
+      (pin Oval[A]Pad_1524x2199.64_um 8 -1270 0)
+      (pin Oval[A]Pad_1524x2199.64_um 9 1270 0)
+      (pin Oval[A]Pad_1524x2199.64_um 10 3810 0)
+      (pin Oval[A]Pad_1524x2199.64_um 11 6350 0)
+      (pin Oval[A]Pad_1524x2199.64_um 12 8890 0)
+      (pin Oval[A]Pad_1524x2199.64_um 13 11430 0)
+      (pin Oval[A]Pad_1524x2199.64_um 14 13970 0)
+      (pin Oval[A]Pad_1524x2199.64_um 15 16510 0)
+      (pin Oval[A]Pad_1524x2199.64_um 16 19050 0)
+    )
+    (image "LED-3MM"
+      (outline (path signal 254  1828.8 -1270  1828.8 1270))
+      (pin Round[A]Pad_1676.4_um 1 -1270 0)
+      (pin Round[A]Pad_1676.4_um 2 1270 0)
+    )
+    (image 1pin
+      (outline (path signal 381  2286 0  2174.11 -706.412  1849.41 -1343.68  1343.68 -1849.41
+            706.412 -2174.11  0 -2286  -706.412 -2174.11  -1343.68 -1849.41
+            -1849.41 -1343.68  -2174.11 -706.412  -2286 0  -2174.11 706.412
+            -1849.41 1343.68  -1343.68 1849.41  -706.412 2174.11  0 2286
+            706.412 2174.11  1343.68 1849.41  1849.41 1343.68  2174.11 706.412))
+      (pin Round[A]Pad_4064_um 1 0 0)
+    )
+    (padstack Round[A]Pad_1676.4_um
+      (shape (circle F.Cu 1676.4))
+      (shape (circle B.Cu 1676.4))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4064_um
+      (shape (circle F.Cu 4064))
+      (shape (circle B.Cu 4064))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1524x2199.64_um
+      (shape (path F.Cu 1524  0 -337.82  0 337.82))
+      (shape (path B.Cu 1524  0 -337.82  0 337.82))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x2199.64_um
+      (shape (rect F.Cu -762 -1099.82 762 1099.82))
+      (shape (rect B.Cu -762 -1099.82 762 1099.82))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:0_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net "N-000001"
+      (pins J3-8 D19-1)
+    )
+    (net "N-0000010"
+      (pins J3-6 D18-1)
+    )
+    (net "N-0000011"
+      (pins J3-7 D19-2)
+    )
+    (net "N-0000012"
+      (pins J3-13 D22-2)
+    )
+    (net "N-0000013"
+      (pins J3-9 D20-2)
+    )
+    (net "N-0000014"
+      (pins J3-10 D20-1)
+    )
+    (net "N-0000015"
+      (pins J3-11 D21-2)
+    )
+    (net "N-0000016"
+      (pins J3-12 D21-1)
+    )
+    (net "N-0000017"
+      (pins J4-8 D27-1)
+    )
+    (net "N-0000018"
+      (pins J4-14 D30-1)
+    )
+    (net "N-0000019"
+      (pins J4-15 D31-2)
+    )
+    (net "N-000002"
+      (pins J3-14 D22-1)
+    )
+    (net "N-0000020"
+      (pins J4-16 D31-1)
+    )
+    (net "N-0000021"
+      (pins J4-1 D24-2)
+    )
+    (net "N-0000022"
+      (pins J4-2 D24-1)
+    )
+    (net "N-0000023"
+      (pins J4-3 D25-2)
+    )
+    (net "N-0000024"
+      (pins J4-4 D25-1)
+    )
+    (net "N-0000025"
+      (pins J4-5 D26-2)
+    )
+    (net "N-0000026"
+      (pins J4-6 D26-1)
+    )
+    (net "N-0000027"
+      (pins J4-7 D27-2)
+    )
+    (net "N-0000028"
+      (pins J4-13 D30-2)
+    )
+    (net "N-0000029"
+      (pins J4-9 D28-2)
+    )
+    (net "N-000003"
+      (pins J3-15 D23-2)
+    )
+    (net "N-0000030"
+      (pins J4-10 D28-1)
+    )
+    (net "N-0000031"
+      (pins J4-11 D29-2)
+    )
+    (net "N-0000032"
+      (pins J4-12 D29-1)
+    )
+    (net "N-0000033"
+      (pins J1-8 D3-1)
+    )
+    (net "N-0000034"
+      (pins J1-14 D6-1)
+    )
+    (net "N-0000035"
+      (pins J1-15 D7-2)
+    )
+    (net "N-0000036"
+      (pins J1-16 D7-1)
+    )
+    (net "N-0000037"
+      (pins J1-1 D0-2)
+    )
+    (net "N-0000038"
+      (pins J1-2 D0-1)
+    )
+    (net "N-0000039"
+      (pins J1-3 D1-2)
+    )
+    (net "N-000004"
+      (pins J3-16 D23-1)
+    )
+    (net "N-0000040"
+      (pins J1-4 D1-1)
+    )
+    (net "N-0000041"
+      (pins J1-5 D2-2)
+    )
+    (net "N-0000042"
+      (pins J1-6 D2-1)
+    )
+    (net "N-0000043"
+      (pins J1-7 D3-2)
+    )
+    (net "N-0000044"
+      (pins J1-13 D6-2)
+    )
+    (net "N-0000045"
+      (pins J1-9 D4-2)
+    )
+    (net "N-0000046"
+      (pins J1-10 D4-1)
+    )
+    (net "N-0000047"
+      (pins J1-11 D5-2)
+    )
+    (net "N-0000048"
+      (pins J1-12 D5-1)
+    )
+    (net "N-0000049"
+      (pins J2-8 D11-1)
+    )
+    (net "N-000005"
+      (pins J3-1 D16-2)
+    )
+    (net "N-0000050"
+      (pins J2-14 D14-1)
+    )
+    (net "N-0000051"
+      (pins J2-15 D15-2)
+    )
+    (net "N-0000052"
+      (pins J2-16 D15-1)
+    )
+    (net "N-0000053"
+      (pins J2-1 D8-2)
+    )
+    (net "N-0000054"
+      (pins J2-2 D8-1)
+    )
+    (net "N-0000055"
+      (pins J2-3 D9-2)
+    )
+    (net "N-0000056"
+      (pins J2-4 D9-1)
+    )
+    (net "N-0000057"
+      (pins J2-5 D10-2)
+    )
+    (net "N-0000058"
+      (pins J2-6 D10-1)
+    )
+    (net "N-0000059"
+      (pins J2-7 D11-2)
+    )
+    (net "N-000006"
+      (pins J3-2 D16-1)
+    )
+    (net "N-0000060"
+      (pins J2-13 D14-2)
+    )
+    (net "N-0000061"
+      (pins J2-9 D12-2)
+    )
+    (net "N-0000062"
+      (pins J2-10 D12-1)
+    )
+    (net "N-0000063"
+      (pins J2-11 D13-2)
+    )
+    (net "N-0000064"
+      (pins J2-12 D13-1)
+    )
+    (net "N-000007"
+      (pins J3-3 D17-2)
+    )
+    (net "N-000008"
+      (pins J3-4 D17-1)
+    )
+    (net "N-000009"
+      (pins J3-5 D18-2)
+    )
+    (class kicad_default "" "N-000001" "N-0000010" "N-0000011" "N-0000012"
+      "N-0000013" "N-0000014" "N-0000015" "N-0000016" "N-0000017" "N-0000018"
+      "N-0000019" "N-000002" "N-0000020" "N-0000021" "N-0000022" "N-0000023"
+      "N-0000024" "N-0000025" "N-0000026" "N-0000027" "N-0000028" "N-0000029"
+      "N-000003" "N-0000030" "N-0000031" "N-0000032" "N-0000033" "N-0000034"
+      "N-0000035" "N-0000036" "N-0000037" "N-0000038" "N-0000039" "N-000004"
+      "N-0000040" "N-0000041" "N-0000042" "N-0000043" "N-0000044" "N-0000045"
+      "N-0000046" "N-0000047" "N-0000048" "N-0000049" "N-000005" "N-0000050"
+      "N-0000051" "N-0000052" "N-0000053" "N-0000054" "N-0000055" "N-0000056"
+      "N-0000057" "N-0000058" "N-0000059" "N-000006" "N-0000060" "N-0000061"
+      "N-0000062" "N-0000063" "N-0000064" "N-000007" "N-000008" "N-000009"
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
